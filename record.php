@@ -5,7 +5,7 @@ use function Laravel\Prompts\warning;
 
 require __DIR__ . '/vendor/autoload.php';
 
-$outputDir = '/Users/joetannenbaum/Documents/Recordings/' . date('Y-m-d_H-i-s');
+$outputDir = '/Users/adams/Framecap/Videos/' . date('Y-m-d_H-i-s');
 
 exec('framecap sources', $output);
 
